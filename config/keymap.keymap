@@ -24,6 +24,21 @@
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <39 40>;
         };
+
+        combo_mb1 {
+            bindings = <&mkp MB1>;
+            key-positions = <33 34>;
+        };
+
+        combo_mb2 {
+            bindings = <&none>;
+            key-positions = <35 36>;
+        };
+
+        combo_mb3 {
+            bindings = <&none>;
+            key-positions = <35 34>;
+        };
     };
 
     keymap {
