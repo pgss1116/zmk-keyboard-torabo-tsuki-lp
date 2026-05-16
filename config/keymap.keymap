@@ -31,13 +31,23 @@
         };
 
         combo_mb2 {
-            bindings = <&none>;
+            bindings = <&mkp MB2>;
             key-positions = <35 36>;
         };
 
         combo_mb3 {
-            bindings = <&none>;
+            bindings = <&mkp MB3>;
             key-positions = <35 34>;
+        };
+
+        combo_mb4 {
+            bindings = <&mkp MB4>;
+            key-positions = <47 48>;
+        };
+
+        combo_mb5 {
+            bindings = <&mkp MB5>;
+            key-positions = <19 20>;
         };
     };
 
