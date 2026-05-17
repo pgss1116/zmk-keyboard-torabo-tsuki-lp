@@ -1,6 +1,7 @@
 #include "torabo_tsuki_lp.dtsi"
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
+#include <scroll-snap.dtsi>
 
 / {
   /omit-if-no-ref/ zip_temp_layer: zip_temp_layer {
