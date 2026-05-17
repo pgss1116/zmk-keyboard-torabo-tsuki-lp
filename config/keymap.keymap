@@ -25,46 +25,6 @@
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <39 40>;
         };
-
-        combo_mb1 {
-            bindings = <&mkp MB1>;
-            key-positions = <33 34>;
-        };
-
-        combo_mb2 {
-            bindings = <&kp TAB>;
-            key-positions = <35 36>;
-        };
-
-        combo_mb3 {
-            bindings = <&mkp MB3>;
-            key-positions = <35 34>;
-        };
-
-        combo_mb4 {
-            bindings = <&mkp MB4>;
-            key-positions = <47 48>;
-        };
-
-        combo_mb5 {
-            bindings = <&mkp MB5>;
-            key-positions = <19 20>;
-        };
-
-        combo_tab2 {
-            bindings = <&kp TAB>;
-            key-positions = <35 36>;
-        };
-
-        combo_alt {
-            bindings = <&kp LEFT_ALT>;
-            key-positions = <57 54>;
-        };
-
-        combo_win {
-            bindings = <&kp LEFT_WIN>;
-            key-positions = <60 63>;
-        };
     };
 
     keymap {
@@ -72,11 +32,11 @@
 
         layer_0 {
             bindings = <
-&none  &none  &none  &none         &none         &none                                &none                     &none    &none      &none    &none      &none
-&none  &kp Q  &kp W  &kp E         &kp R         &kp T                                &kp Y                     &kp U    &kp I      &kp O    &kp P      &none
-&none  &kp A  &kp S  &lt 2 D       &lt 1 F       &kp G      &mkp LCLK    &mkp RCLK    &kp H                     &lt 1 J  &lt 2 K    &kp L    &kp SEMI   &none
-&none  &kp Z  &kp X  &kp C         &kp V         &kp B      &kp SPACE    &kp RET      &kp N                     &kp M    &kp COMMA  &kp DOT  &kp SLASH  &none
-&none  &none  &none  &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &lt 3 SPACE  &lt 3 ENTER  &mt LEFT_SHIFT BACKSPACE  &none    &none      &none    &mo 5      &none
+&none  &none  &none  &none    &none         &none                                &none                     &none    &none      &none         &none      &none
+&none  &kp Q  &kp W  &kp E    &kp R         &kp T                                &kp Y                     &kp U    &kp I      &kp O         &kp P      &none
+&none  &kp A  &kp S  &lt 2 D  &lt 1 F       &kp G      &mkp LCLK    &mkp RCLK    &kp H                     &lt 1 J  &lt 2 K    &kp L         &kp SEMI   &none
+&none  &kp Z  &kp X  &kp C    &kp V         &kp B      &kp SPACE    &kp RET      &kp N                     &kp M    &kp COMMA  &kp DOT       &kp SLASH  &none
+&none  &none  &none  &none    &kp LEFT_ALT  &kp LCTRL  &lt 3 SPACE  &lt 3 ENTER  &mt LEFT_SHIFT BACKSPACE  &none    &none      &kp LEFT_WIN  &mo 5      &none
             >;
         };
 
