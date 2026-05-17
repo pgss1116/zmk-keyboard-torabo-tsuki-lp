@@ -16,7 +16,7 @@
         };
 
         combo_tab {
-            bindings = <&kp TAB>;
+            bindings = <&kp B>;
             key-positions = <25 26>;
         };
 
