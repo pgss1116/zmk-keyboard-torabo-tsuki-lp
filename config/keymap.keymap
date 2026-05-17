@@ -49,6 +49,21 @@
             bindings = <&mkp MB5>;
             key-positions = <19 20>;
         };
+
+        combo_tab2 {
+            bindings = <&kp TAB>;
+            key-positions = <35 36>;
+        };
+
+        combo_alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <57 54>;
+        };
+
+        combo_win {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <60 63>;
+        };
     };
 
     keymap {
