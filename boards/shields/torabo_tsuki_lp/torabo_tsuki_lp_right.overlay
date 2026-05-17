@@ -12,11 +12,11 @@
 
 &zip_temp_layer {
     excluded-positions = <
-        6  // U
-        16 // J
-        17 // K
-        18 // L
-        28 // M
+        19 // U
+        33 // J
+        34 // K
+        35 // L
+        47 // M
     >;
 };
 
@@ -31,7 +31,7 @@
         input-processors = 
             <&zip_xy_to_scroll_mapper>,
             <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>,
-            <&zip_scroll_scaler 1 16>;
+            <&zip_scroll_scaler 1 14>;
     };
 };
 
