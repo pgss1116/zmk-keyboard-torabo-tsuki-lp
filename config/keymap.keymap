@@ -28,7 +28,7 @@
 
         combo_alt {
             bindings = <&kp LEFT_ALT>;
-            key-positions = <46 49>;
+            key-positions = <60 63>;
         };
     };
 
